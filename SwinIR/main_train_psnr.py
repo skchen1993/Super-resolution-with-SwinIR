@@ -57,7 +57,7 @@ def main():
     parser.add_argument('--folder_lq', type=str, default="/home/skchen/IPT_data/X3/benchmark/Set14/LR_bicubic/X3/", help='input low-quality test image folder')
     parser.add_argument('--folder_gt', type=str, default="/home/skchen/IPT_data/X3/benchmark/Set14/HR/", help='input ground-truth test image folder')
     #----improved model saving path----
-    parser.add_argument('--model_save_dir', type=str, default="./superresolution/VRDL_HW4_x3_ex4_MoA/models/improved/", help='if model get performance improved, save model to this path')
+    parser.add_argument('--model_save_dir', type=str, default="./superresolution/VRDL_HW4/models/improved/", help='if model get performance improved, save model to this path')
   
 
 
