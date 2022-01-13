@@ -27,7 +27,6 @@ And, modified the args below(you may directly modified it in `main_train_psnr.py
 `--folder_lq`     : path for testing set, low resolution image,  
 `--folder_gt`     : path for testing set, high resolution image(groud truth),    
 `--model_save_dir`: path for saving model(if model performance boost, do the model saving)  
-`--chart_save_dir`: path for saving chart   
 
 checkpoint setting:   
 (`checkpoint_test`, `checkpoint_save`, `checkpoint_print` in `options/swinir/train_swinir_sr_classical.json`)  
