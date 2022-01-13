@@ -24,8 +24,8 @@ and also,  `noisel level`, `JPEG level`, `G_optimizer_lr`, `G_scheduler_mileston
 And, modified the args below(you may directly modified it in `main_train_psnr.py`, or write it in the command )    
 `--opt`           : path to related .json file,    
 `--scale`         : setting scale for testing (SR: 2,3,4,...),    
-`--folder_lq`     : path for testing set, low resolution image,  
-`--folder_gt`     : path for testing set, high resolution image(groud truth),    
+`--folder_lq`     : path for val set, low resolution image,  
+`--folder_gt`     : path for val set, high resolution image(groud truth),    
 `--model_save_dir`: path for saving model(if model performance boost, do the model saving)  
 
 checkpoint setting:   
