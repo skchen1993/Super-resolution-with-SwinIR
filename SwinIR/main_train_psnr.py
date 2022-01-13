@@ -53,9 +53,9 @@ def main():
     parser.add_argument('--scale', type=int, default=3, help='scale factor: 1, 2, 3, 4, 8')  # 1 for dn and jpeg car
     parser.add_argument('--noise', type=int, default=15, help='noise level: 15, 25, 50')
     parser.add_argument('--jpeg', type=int, default=40, help='scale factor: 10, 20, 30, 40')
-      #在此設定testing set路徑
-    parser.add_argument('--folder_lq', type=str, default="/home/skchen/IPT_data/X3/benchmark/Set14/LR_bicubic/X3/", help='input low-quality test image folder')
-    parser.add_argument('--folder_gt', type=str, default="/home/skchen/IPT_data/X3/benchmark/Set14/HR/", help='input ground-truth test image folder')
+      #在此設定validation dataset路徑
+    parser.add_argument('--folder_lq', type=str, default="", help='input low-quality val image folder')
+    parser.add_argument('--folder_gt', type=str, default="", help='input ground-truth val image folder')
     #----improved model saving path----
     parser.add_argument('--model_save_dir', type=str, default="./superresolution/VRDL_HW4/models/improved/", help='if model get performance improved, save model to this path')
   
