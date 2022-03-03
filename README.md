@@ -6,8 +6,8 @@ python   : 3.8.11
 pytorch  : 1.9.0 + cu102
 
 ### Data prepare and preprocessing  
-1. Download training dataset and put it into `VRDL_4_SR/dataset/training_images/training_hr_images/`  
-2. run `VRDL_4_SR/dataset/training_images/downscale.py` to do the image preprocessing  
+1. Download training dataset and put it into `./dataset/training_images/training_hr_images/`  
+2. run `./dataset/training_images/downscale.py` to do the image preprocessing  
 (Note: trimmed to multiple of 3 + make sure number of each dimension > 144)  
 
 
