@@ -1,4 +1,4 @@
-# VRDL_4_SR
+# SR-with-SwinIR 
 Using SwinIR to do the super-resolution task  
 [Report!!](https://drive.google.com/file/d/1AgAtYsPpdXLypaov01X6h-s2sZJtzsQL/view?usp=sharing)
 ### Environment
